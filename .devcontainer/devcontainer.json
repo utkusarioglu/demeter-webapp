@@ -1,21 +1,18 @@
 {
-	"name": "Existing Docker Compose (Extend)",
-	"dockerComposeFile": [
-		"../docker-compose.dev.yml",
-		"docker-compose.yml"
-	],
-	"service": "react",
-	"workspaceFolder": "/workspace",
-	"settings": {
+  "name": "Existing Docker Compose (Extend)",
+  "dockerComposeFile": ["../docker-compose.dev.yml", "docker-compose.yml"],
+  "service": "react",
+  "workspaceFolder": "/workspace",
+  "settings": {
     "workbench.colorCustomizations": {
       "activityBar.background": "#045"
     }
   },
-	"extensions": [
-      "orta.vscode-jest",
+  "extensions": [
+    "orta.vscode-jest",
     "dsznajder.es7-react-js-snippets",
     "ahmadalli.vscode-nginx-conf"
   ],
-  // "postCreateCommand": "scripts/post-create-command.sh",
-  // "postStartCommand": "scripts/post-start-command.sh"
+  "postCreateCommand": "scripts/post-create-command.sh",
+  "postStartCommand": "scripts/post-start-command.sh"
 }
