@@ -1,0 +1,11 @@
+{
+  "name": "demeter-webapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/utkusarioglu/demeter-webapp.git",
+  "author": "Utku Sarioglu <utkusarioglu@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "echo \"This hasn't been implemented yet\""
+  }
+}
