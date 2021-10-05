@@ -7,5 +7,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "echo \"This hasn't been implemented yet\""
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.2",
+    "typescript": "^4.4.3"
   }
 }
